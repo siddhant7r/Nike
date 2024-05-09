@@ -1,0 +1,233 @@
+.find ul {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  background-color: white;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.label {
+  gap: 125px;
+}
+
+.navbar label {
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .navbar ul {
+  display: block;
+}
+
+@media screen and (max-width: 750px) {
+  .navbar label {
+    display: block;
+  }
+  .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    background-color: white;
+    display: none;
+  }
+  .navbar ul li {
+    padding: 20px;
+  }
+}
+.vid {
+  position: relative;
+  top: 40px;
+  text-align: center;
+  z-index: -1;
+}
+
+.dn {
+  position: relative;
+  top: 40px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.airtech {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.airm {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+
+.airm1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  margin-top: -50px;
+}
+
+.equip {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.shop button {
+  padding: 15px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.shop button:hover {
+  background-color: white;
+  color: black;
+}
+
+.dnsum {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.mwg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  position: relative;
+  top: 20px;
+}
+
+.mwg button {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding: 15px;
+  background-color: gray;
+}
+
+.nikej {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.nikej h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  justify-content: flex-end;
+}
+
+.shoen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: rgb(142, 211, 14);
+}
+
+.pegasus1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spot {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.pegasus1 button {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.sport {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sportname {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: coral;
+  position: relative;
+  bottom: 30px;
+  text-shadow: 10px;
+  text-rendering: auto;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  top: 20px;
+  font-size: 25px;
+}
+
+.pagelogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.haal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.addc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.addc button {
+  padding: 15px;
+  background-color: greenyellow;
+  color: black;
+}/*# sourceMappingURL=nike.css.map */

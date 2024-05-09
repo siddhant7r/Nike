@@ -1,0 +1,57 @@
+.navbar{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+}
+.navbar ul{
+    background-color: white;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    // position: relative;
+    // left: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.label{
+   gap: 125px;
+}
+
+.navbar label{
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked~.navbar ul{
+    display: block;
+}
+
+@media screen and (max-width:750px){
+
+    .navbar label{
+        display: block;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        position: absolute;
+        top: 60px;    
+      
+        background-color: white;
+        display: none;
+    }
+    .navbar ul li{
+        padding: 20px;
+    }
+    
+    
+}

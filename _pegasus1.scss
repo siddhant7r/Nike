@@ -1,0 +1,23 @@
+.pegasus1{
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spot{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.pegasus1 button{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
